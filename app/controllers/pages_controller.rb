@@ -22,4 +22,7 @@ class PagesController < ApplicationController
 
   def daylight
   end
+
+  def tictactoe
+  end
 end
