@@ -3,9 +3,11 @@
 <div id="numbers-game">
   <div class="row">
     <% (1..10).each do |number| %>
-      <div class="box col-md-2"><%= number %></div>
+      <div class="box col-md-2" onclick="add(<%= number %>)"><%= number %></div>
       <div class="col-md-1"> </div>
     <% end %>
   </div>
   
 </div>
+
+<div id="sum">0</div>
