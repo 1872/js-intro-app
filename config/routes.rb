@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get '/numbers' => 'pages#numbers'
   get '/calc' => 'pages#calc'
   get '/jackhammer' => 'pages#jackhammer'
+  get '/daylight' => 'pages#daylight'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
